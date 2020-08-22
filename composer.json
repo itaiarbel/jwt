@@ -1,0 +1,26 @@
+{
+	"name" : "itaiarbel/jwt",
+	"description" : " JWT,JWS,JWE library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Itai Arbel",
+			"email" : "itai@arbelis.com"
+		}
+	],
+	"type" : "project",
+	"homepage" : "https://github.com/itaiarbel/jwt",
+	"keywords" : [
+		"php",
+		"jwt",
+		"jws",
+		"jwe"
+	],
+	"require" : {
+		"lib-openssl" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Itaiarbel\\Jwt\\" : "src/"
+		}
+	}
+}
